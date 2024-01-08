@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/add/coins.php",
+      "methods": ["GET", "POST", "OPTIONS"],
+      "dest": "/app.py"
+    }
+  ],
+  "functions": {
+    "app.py": {
+      "runtime": "python3.8"
+    }
+  }
+}
