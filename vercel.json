@@ -6,10 +6,5 @@
       "methods": ["GET", "POST", "OPTIONS"],
       "dest": "/app.py"
     }
-  ],
-  "functions": {
-    "app.py": {
-      
-    }
-  }
+  ]
 }
